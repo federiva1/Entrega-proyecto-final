@@ -322,7 +322,7 @@ function Contratar(productoContratado, precio) {
                     break;
             }
 
-            // Agrega una validación adicional para los datos de CBU o tarjeta de crédito
+            // Validación
             if (MedioDePago.value === "cbu" && !cbu.value) {
                 Toastify({
                     text: "Faltan completar datos",
@@ -335,16 +335,14 @@ function Contratar(productoContratado, precio) {
                     backgroundColor: "red"
                 }).showToast();
                 return;
+            } else if (MedioDePago.value === "" ) {
+                Toastify({
+                    text: "Faltan completar datos",
+                    backgroundColor: "red"
+                }).showToast();
+                return;
             }
 
-
-//Guardar datos medio de pago//
-         
-
-         
-
-
-            //
 
             Toastify({
                 text: "¡Gracias por su compra! ya tenes tu póliza",
