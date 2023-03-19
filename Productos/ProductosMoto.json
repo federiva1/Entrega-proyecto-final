@@ -1,0 +1,20 @@
+[
+    {
+        "Paquete": "Plan Basico",
+        "Antiguedad": "1960",
+        "Coeficiente": "0.02",
+        "Coberturas": "Responsabilidad civil por daños a terceros / Responsabilidad civil por muerte de terceros "
+    },
+
+
+    {
+        "Paquete": "Plan Premium",
+        "Antiguedad": "2010",
+        "Coeficiente": "0.08",
+        "Coberturas": "Responsabilidad civil por daños a terceros / Responsabilidad civil por muerte de terceros / Robo e incendio total del vehiculo "
+    }
+
+    
+]
+
+
